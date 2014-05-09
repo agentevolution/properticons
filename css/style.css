@@ -97,7 +97,7 @@ p,
 #primary a {
 	color: #ecbbbe;
 }
-#content, #icons {
+#content, #icons, .wrap {
 	width: 960px;
 	margin: 0 auto;
 }
@@ -145,7 +145,7 @@ p,
 }
 #header {
 	background: #222;
-	width: 960px;
+	width: 100%;
 	padding: 20px 0;
 }
 #header h2 {
