@@ -61,7 +61,7 @@ body {
 	color: #333;
 }
 a {
-	color: #d54e21;
+	color: #c2252c;
 }
 h2 {
 	font-size: 24px;
@@ -70,7 +70,8 @@ h2 {
 h4 {
 	margin-top: 40px;
 }
-p {
+p,
+#toggleinstructions {
 	margin: 0 0 40px;
 }
 #iconlist {
@@ -86,7 +87,7 @@ p {
 }
 #iconlist div:hover {
 	cursor: pointer;
-	color: #d54e21;
+	color: #c2252c;
 }
 #primary {
 	padding-bottom: 20px;
@@ -94,7 +95,7 @@ p {
 	overflow: hidden;
 }
 #primary a {
-	color: #fdeced;
+	color: #ecbbbe;
 }
 #content, #icons {
 	width: 960px;
@@ -144,12 +145,16 @@ p {
 }
 #header {
 	background: #222;
+	width: 960px;
+	padding: 20px 0;
 }
 #header h2 {
 	color: white;
-	margin: 0 auto;
-	padding: 20px 0;
-	width: 960px;
+	margin: 0;
+	float: left;
+}
+#header .follow {
+	float: right;
 }
 #footer {
 	width: 960px;
