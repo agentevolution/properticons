@@ -1,0 +1,111 @@
+@font-face {
+    font-family: 'properticons';
+    src: url('../fonts/properticons.eot');
+    src: url('../fonts/properticons.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/properticons.woff') format('woff'),
+         url('../fonts/properticons.ttf') format('truetype'),
+         url('../fonts/properticons.svg#properticons') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+.properticons,
+.properticons-before:before {
+	display: inline-block;
+	width: 20px;
+	height: 20px;
+	font-size: 20px;
+	line-height: 1;
+	font-family: "properticons";
+	text-decoration: inherit;
+	font-weight: normal;
+	font-style: normal;
+	vertical-align: top;
+	text-align: center;
+	-webkit-transition: color .1s ease-in 0;
+	transition: color .1s ease-in 0;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+/* All */
+
+.properticons-beds:before {
+	content: "\e001";
+}
+
+.properticons-building:before {
+	content: "\e002";
+}
+
+.properticons-message:before {
+	content: "\e003";
+}
+
+.properticons-search:before {
+	content: "\e004";
+}
+
+.properticons-home:before {
+	content: "\e005";
+}
+
+.properticons-map-marker-home:before {
+	content: "\e006";
+}
+
+.properticons-mobile:before {
+	content: "\e007";
+}
+
+.properticons-key:before {
+	content: "\e008";
+}
+
+.properticons-graph-line:before {
+	content: "\e009";
+}
+
+.properticons-mail:before {
+	content: "\e010";
+}
+
+.properticons-mailbox:before {
+	content: "\e011";
+}
+
+.properticons-phone:before {
+	content: "\e012";
+}
+
+.properticons-graph-pie:before {
+	content: "\e013";
+}
+
+.properticons-map-marker:before {
+	content: "\e014";
+}
+
+.properticons-question:before {
+	content: "\e015";
+}
+
+.properticons-baths:before {
+	content: "\e016";
+}
+
+.properticons-pushpin:before {
+	content: "\e017";
+}
+
+.properticons-graph-bar:before {
+	content: "\e018";
+}
+
+.properticons-logo-eho:before {
+	content: "\e019";
+}
+
+.properticons-logo-realtor:before {
+	content: "\e020";
+}
