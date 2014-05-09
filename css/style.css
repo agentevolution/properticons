@@ -75,8 +75,10 @@ h4 {
 }
 #iconlist div {
 	padding: 0 50px 50px 0;
-	font-size: 40px;
+	font-size: 90px;
 	line-height: 1;
+	width: 80px;
+	height: 70px;
 }
 #iconlist div:hover {
 	cursor: pointer;
@@ -119,7 +121,7 @@ h4 {
 	display: block;
 	padding: 8px 0;
 }
-#glyph .dashicons {
+#glyph .properticons {
 	font-size: 240px;
 	width: 240px;
 	height: 240px;
