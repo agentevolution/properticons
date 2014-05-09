@@ -73,6 +73,7 @@ h4 {
 p,
 #toggleinstructions {
 	margin: 0 0 40px;
+	display: block;
 }
 #iconlist {
 	clear: both;
@@ -100,6 +101,8 @@ p,
 #content, #icons, .wrap {
 	width: 960px;
 	margin: 0 auto;
+	clear: both;
+	overflow: hidden;
 }
 #content {
 	color: white;
