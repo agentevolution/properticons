@@ -1,7 +1,4 @@
 {
-DisplayStrings = (
-/uniE002
-);
 customParameters = (
 {
 name = glyphOrder;
@@ -168,7 +165,6 @@ unicode = E001;
 },
 {
 glyphname = uniE002;
-lastChange = "2014-05-09 23:26:18 -0600";
 layers = (
 {
 layerId = "3629EDAB-2B2F-47D4-9515-54A24762C910";
