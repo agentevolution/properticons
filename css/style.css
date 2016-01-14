@@ -1,3 +1,5 @@
+@import url(http://fonts.googleapis.com/css?family=Lato);
+
 /* =Reset
 	http://meyerweb.com/eric/tools/css/reset/ 
 	v2.0 | 20110126
@@ -53,13 +55,13 @@ table {
 ----------------------------------------------- */
 
 body {
-	font-family: "Open Sans", sans-serif;
+	font-family: "Lato", sans-serif;
 	line-height: 1.5;
 	margin: 0;
 	color: #333;
 }
 a {
-	color: #d54e21;
+	color: #c2252c;
 }
 h2 {
 	font-size: 24px;
@@ -68,7 +70,11 @@ h2 {
 h4 {
 	margin-top: 40px;
 }
-
+#instructions,
+#toggleinstructions {
+	margin: 0 0 40px;
+	display: block;
+}
 #iconlist {
 	clear: both;
 	margin-bottom: 20px;
@@ -82,19 +88,21 @@ h4 {
 }
 #iconlist div:hover {
 	cursor: pointer;
-	color: #d54e21;
+	color: #c2252c;
 }
 #primary {
 	padding-bottom: 20px;
-	background: #0074a2;
+	background: #c2252c;
 	overflow: hidden;
 }
 #primary a {
-	color: #cce9f5;
+	color: #ecbbbe;
 }
-#content, #icons {
+#content, #icons, .wrap {
 	width: 960px;
 	margin: 0 auto;
+	clear: both;
+	overflow: hidden;
 }
 #content {
 	color: white;
@@ -140,12 +148,16 @@ h4 {
 }
 #header {
 	background: #222;
+	width: 100%;
+	padding: 20px 0;
 }
 #header h2 {
 	color: white;
-	margin: 0 auto;
-	padding: 20px 0;
-	width: 960px;
+	margin: 0;
+	float: left;
+}
+#follow {
+	float: right;
 }
 #footer {
 	width: 960px;

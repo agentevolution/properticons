@@ -109,3 +109,7 @@
 .properticons-logo-realtor:before {
 	content: "\e020";
 }
+
+.properticons-logo-idx:before {
+	content: "\e021";
+}

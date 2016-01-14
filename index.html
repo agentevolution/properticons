@@ -2,7 +2,6 @@
 <html dir="ltr" lang="en">
 <head>
 	<title>Properticons</title>
-	<meta name="robots" content="noindex">
 
 	<!-- Stylesheets -->
 	<link rel="stylesheet" href="css/properticons.css">
@@ -13,7 +12,14 @@
 <div id="main">
 
 	<div id="header">
-		<h2>Properticons</h2>
+		<div class="wrap">
+			<h2>Properticons</h2>
+
+			<div id="follow">
+				<iframe src="http://ghbtns.com/github-btn.html?user=agentevolution&repo=properticons&type=watch&count=true&size=large"
+	  allowtransparency="true" frameborder="0" scrolling="0" width="130" height="30"></iframe>
+			</div>
+		</div>
 	</div>
 
 	<div id="primary">
@@ -22,7 +28,7 @@
 			</div>
 
 			<div class="description">
-				<p>Properticons is an icon font created by Agent Evolution for Real Estate sites, themes, and plugins.</p>
+				<p>Properticons is an icon font created by <a href="http://www.agentevolution.com">Agent Evolution</a> for Real Estate sites, themes, and plugins.</p>
 			</div>
 
 		</div>
@@ -52,6 +58,7 @@
 			<div data-code="e018" class="properticons properticons-graph-bar"></div>
 			<div data-code="e019" class="properticons properticons-logo-eho"></div>
 			<div data-code="e020" class="properticons properticons-logo-realtor"></div>
+			<div data-code="e021" class="properticons properticons-logo-idx"></div>
 
 		</div>
 
@@ -69,21 +76,23 @@
 
 			<pre>&lt;link rel="stylesheet" href="css/properticons.css"></pre>
 
-			<p>Now add the icons using the <code>:before</code> selector. You can insert the Star icon like this:</p>
+			<p>Now add the icons using the <code>:before</code> selector. You can insert the Bed icon like this:</p>
 
 			<code>.myicon:before {</code>
-			<textarea class="code" onclick="select();">content: "\2605";
+			<textarea class="code" onclick="select();">content: "\e001";
 display: inline-block;
 -webkit-font-smoothing: antialiased;
-font: normal 20px/1 'real_estate_icons';
+font: normal 20px/1 'properticons';
 vertical-align: top;</textarea>
 			<code>}</code>
 
 		</div>
-		<div id="temp" style="display: none;"></div>
+
+		<p>Properticons is licensed under GPLv2, or any later version with font exception (<a href="http://www.gnu.org/licenses/gpl-faq.html#FontException">http://www.gnu.org/licenses/gpl-faq.html#FontException</a>)</p>
 
 	</div>
 
+	
 	<p id="footer">Copyright &copy; Agent Evolution</p>
 
 </div>
