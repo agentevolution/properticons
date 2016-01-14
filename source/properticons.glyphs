@@ -1,4 +1,7 @@
 {
+DisplayStrings = (
+/uniE021
+);
 customParameters = (
 {
 name = glyphOrder;
@@ -84,6 +87,13 @@ date = "2014-05-07 00:13:02 +0000";
 designer = "Agent Evolution";
 designerURL = "http://www.agentevolution.com";
 familyName = "Real Estate Icons";
+featurePrefixes = (
+{
+automatic = 1;
+code = "languagesystem DFLT dflt;\012";
+name = Languagesystems;
+}
+);
 fontMaster = (
 {
 ascender = 800;
@@ -2241,9 +2251,116 @@ width = 600;
 }
 );
 unicode = E020;
+},
+{
+glyphname = uniE021;
+lastChange = "2016-01-14 18:22:10 +0000";
+layers = (
+{
+layerId = "3629EDAB-2B2F-47D4-9515-54A24762C910";
+name = Regular;
+paths = (
+{
+closed = 1;
+nodes = (
+"521 373 LINE",
+"446 289 LINE",
+"372 373 LINE",
+"272 373 LINE",
+"302 373 LINE SMOOTH",
+"310 373 OFFCURVE",
+"320 371 OFFCURVE",
+"331 368 CURVE SMOOTH",
+"356 363 OFFCURVE",
+"371 350 OFFCURVE",
+"379 328 CURVE SMOOTH",
+"381 320 OFFCURVE",
+"382 310 OFFCURVE",
+"383 300 CURVE SMOOTH",
+"385 290 OFFCURVE",
+"385 276 OFFCURVE",
+"385 256 CURVE SMOOTH",
+"385 235 OFFCURVE",
+"384 219 OFFCURVE",
+"383 208 CURVE SMOOTH",
+"382 197 OFFCURVE",
+"380 187 OFFCURVE",
+"378 177 CURVE SMOOTH",
+"370 157 OFFCURVE",
+"356 144 OFFCURVE",
+"332 139 CURVE SMOOTH",
+"323 136 OFFCURVE",
+"312 134 OFFCURVE",
+"300 133 CURVE SMOOTH",
+"262 133 LINE",
+"368 133 LINE",
+"446 220 LINE",
+"525 133 LINE",
+"628 133 LINE",
+"506 254 LINE",
+"622 373 LINE"
+);
+},
+{
+closed = 1;
+nodes = (
+"-18 373 LINE",
+"-18 133 LINE",
+"59 133 LINE",
+"59 373 LINE"
+);
+},
+{
+closed = 1;
+nodes = (
+"243 373 LINE",
+"70 373 LINE",
+"70 133 LINE",
+"243 133 LINE",
+"264 133 LINE",
+"387 254 LINE",
+"274 373 LINE"
+);
+},
+{
+closed = 1;
+nodes = (
+"265 313 OFFCURVE",
+"281 313 OFFCURVE",
+"289 311 CURVE SMOOTH",
+"296 310 OFFCURVE",
+"302 307 OFFCURVE",
+"306 304 CURVE SMOOTH",
+"309 299 OFFCURVE",
+"312 293 OFFCURVE",
+"313 286 CURVE SMOOTH",
+"315 278 OFFCURVE",
+"316 266 OFFCURVE",
+"316 252 CURVE SMOOTH",
+"316 237 OFFCURVE",
+"315 227 OFFCURVE",
+"313 219 CURVE SMOOTH",
+"312 211 OFFCURVE",
+"308 206 OFFCURVE",
+"304 202 CURVE SMOOTH",
+"301 199 OFFCURVE",
+"294 197 OFFCURVE",
+"286 196 CURVE SMOOTH",
+"276 195 OFFCURVE",
+"262 194 OFFCURVE",
+"243 194 CURVE SMOOTH",
+"142 194 LINE",
+"142 313 LINE",
+"243 313 LINE SMOOTH"
+);
 }
 );
-disablesNiceNames = 1;
+width = 600;
+}
+);
+unicode = E021;
+}
+);
 instances = (
 {
 name = Regular;
